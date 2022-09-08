@@ -1,0 +1,202 @@
+/*
+
+This is a Stylesheet. It goes in the folder "css", which should be in your Root Directory.
+
+You can use Find + Replace to change the following items:
+
+Title font
+"  'Cormorant SC', serif  "
+
+Body font
+"  Arial  "
+
+Background color
+"  #7E96A1  "
+
+Text and border color
+"  #1D2129  "
+
+Textbox color
+"  #A8BFC1  "
+
+Button color
+"  #B4E9EE  "
+
+Button hover color
+"  #324C67  "
+
+*/
+
+body {
+    margin: 0px;
+    font-family: Arial;
+    font-size: 12px;
+    background-color: #7E96A1;
+    color: #1D2129;
+}
+
+a {
+    color: #1D2129;
+    text-decoration: none;
+}
+
+.footer-frame {
+    width: 100%;
+    border: none;
+    overflow: hidden;
+    height: 100px;
+    display: flex;
+}
+
+.footer {
+    background-color: #A8BFC1;
+    padding: 10px;
+    height: -webkit-fill-available;
+    height: -moz-available;
+}
+
+.credit {
+    background-color: #B4E9EE;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 2px;
+    font-family: 'Cormorant SC', serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.credit:hover {
+    background-color: #324C67;
+    color: #B4E9EE;
+    outline: 2px solid #B4E9EE;
+}
+
+.credit:focus {
+    background-color: #324C67;
+    color: #B4E9EE;
+    outline: 2px solid #B4E9EE;
+}
+
+.verti {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bar-enabler {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.sidebar {
+    display: flex;
+    width: 30%;
+    padding: 10px;
+    flex-direction: column;
+    background-color: #A8BFC1;
+    border-right: 2px solid #1D2129;
+}
+
+.title {
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Cormorant SC', serif;
+}
+
+.gal-desc {
+    margin-bottom: 10px;
+}
+
+.gal-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Cormorant SC', serif;
+    padding: 3px;
+    border-radius: 3px;
+    background-color: #B4E9EE;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section-title:hover {
+    background-color: #324C67;
+    color: #B4E9EE;
+    outline: 2px solid #B4E9EE;
+}
+
+.section-title:focus {
+    background-color: #324C67;
+    color: #B4E9EE;
+    outline: 2px solid #B4E9EE;
+}
+
+.thumb-box {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.thumbnail {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 4px;
+}
+
+.thumbnail:hover {
+    outline: 2px solid #B4E9EE;
+    background-color: #B4E9EE;
+    opacity: 0.6;
+}
+
+.thumbnail:focus {
+    outline: 2px solid #B4E9EE;
+    background-color: #B4E9EE;
+    opacity: 0.6;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.full-size {
+    max-height: 80vh;
+    max-width: 95%;
+    margin: 10px;
+}
+
+.description {
+    width: 70%;
+    padding: 10px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #1D2129;
+    border-radius: 3px;
+    background-color: #A8BFC1;
+}
+
+.hidden-info {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}

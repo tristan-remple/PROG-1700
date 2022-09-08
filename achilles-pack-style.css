@@ -1,0 +1,397 @@
+/*
+
+This is a Stylesheet. It goes in the folder "css", which should be in your Root Directory.
+
+You can use Find + Replace to change the following items. Any changes you make will apply to all pages within this Theme Pack.
+
+Title font
+"  'Cormorant SC', serif  "
+
+Body font
+"  Arial  "
+
+Background color
+"  #7E96A1  "
+
+Text and border color
+"  #1D2129  "
+
+Textbox color
+"  #A8BFC1  "
+
+Button color
+"  #B4E9EE  "
+
+Button hover color
+"  #324C67  "
+
+*/
+
+body {
+    margin: 0px;
+    font-family: Arial;
+    font-size: 12px;
+    background-color: #7E96A1;
+    color: #1D2129;
+}
+
+a {
+    color: #1D2129;
+    text-decoration: none;
+}
+
+.verti {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.header-frame {
+    width: 100%;
+    border: none;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+.banner {
+    background-color: #A8BFC1;
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.banner-title {
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Cormorant SC', serif;
+    text-align: center;
+}
+
+.banner-subtitle {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    font-size: 24px;
+}
+
+.top-bar {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.top-link {
+    display: flex;
+    flex-grow: 1;
+    font-weight: bold;
+    justify-content: center;
+    font-family: 'Cormorant SC', serif;
+    font-size: 18px;
+    padding: 5px;
+    background-color: #B4E9EE;
+}
+
+.top-link:hover {
+    background-color: #324C67;
+    color: #B4E9EE;
+    letter-spacing: 2px;
+}
+
+.top-link:focus {
+    background-color: #324C67;
+    color: #B4E9EE;
+    letter-spacing: 2px;
+}
+
+.footer-frame {
+    width: 100%;
+    border: none;
+    overflow: hidden;
+    height: 100px;
+    display: flex;
+    margin-top: auto;
+}
+
+.footer {
+    background-color: #A8BFC1;
+    padding: 10px;
+    height: -webkit-fill-available;
+    height: -moz-available;
+}
+
+.title {
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Cormorant SC', serif;
+}
+
+.group-box {
+    display: flex;
+    width: 95%;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    padding: 10px;
+    align-items: center;
+    margin: 5px;
+    border: 2px solid #1D2129;
+    border-radius: 3px;
+    background-color: #A8BFC1;
+}
+
+.group-title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Cormorant SC', serif;
+    padding: 3px;
+    border-radius: 3px;
+    background-color: #B4E9EE;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.group-title:hover {
+    background-color: #324C67;
+    color: #B4E9EE;
+    outline: 2px solid #B4E9EE;
+}
+
+.group-title:focus {
+    background-color: #324C67;
+    color: #B4E9EE;
+    outline: 2px solid #B4E9EE;
+}
+
+.group-subtitle {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    font-size: 18px;
+}
+
+.group-icon {
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.group-members {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.member {
+    background-color: #B4E9EE;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 2px;
+    font-family: 'Cormorant SC', serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.member:hover {
+    background-color: #324C67;
+    color: #B4E9EE;
+    outline: 2px solid #B4E9EE;
+}
+
+.member:focus {
+    background-color: #324C67;
+    color: #B4E9EE;
+    outline: 2px solid #B4E9EE;
+}
+
+.group-summary {
+    text-align: center;
+}
+
+.bar-enabler {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.levels-box {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #1D2129;
+    border-radius: 3px;
+    background-color: #A8BFC1;
+    height: min-content;
+}
+
+.level {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    border-bottom: 2px solid #1D2129;
+}
+
+.level:last-child {
+    border-bottom: none;
+}
+
+.level-color {
+    width: 20%;
+    height: 50px;
+}
+
+.level-color-name {
+    width: 20%;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.level-title {
+    width: 20%;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.level-desc {
+    height: -webkit-fill-available;
+    height: -moz-available;
+    padding: 5px;
+}
+
+.levels-info {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.levels-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 10px;
+    border: 2px solid #1D2129;
+    border-radius: 3px;
+    background-color: #A8BFC1;
+}
+
+.padded {
+    padding: 10px;
+}
+
+.level-example {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.level-image {
+    width: 100%;
+    margin: 10px;
+}
+
+.chara-info {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.less-wide {
+    width: 80%;
+}
+
+.pair {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #1D2129;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.more-narrow {
+    width: 65%;
+}
+
+.img-border {
+    border: 2px solid #1D2129;
+    border-radius: 3px;
+}
+
+.small-card {
+    width: 210px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #1D2129;
+    border-radius: 3px;
+    background-color: #A8BFC1;
+}
+
+.sc-box {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.small-icon {
+    height: 80px;
+}
+
+.card-info {
+    width: -webkit-fill-available;
+    width: -moz-available;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.bottom-margin {
+    margin-bottom: 10px;
+}
+
+.two-wide {
+    width: 20%;
+}
+
+.flex-width {
+    width: -webkit-fill-available;
+    width: -moz-available;
+}

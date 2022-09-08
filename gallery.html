@@ -1,0 +1,235 @@
+<!-- This is a Main File. It goes in your Root Directory. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta name="web-author" content="Knife" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- BEGINNING of Google Fonts HTML -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap" rel="stylesheet">
+<!-- END of Google Fonts HTML -->
+
+<link rel="stylesheet" href="css/jp-gallery-style.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/switch-image.js"></script>
+<script src="js/section-visibility.js"></script>
+
+<!-- This is the title that appears on the browser window. -->
+<title>Gallery</title>
+
+</head>
+<body>
+    
+    <div class="verti">
+        
+        <div class="bar-enabler">
+            
+            <div class="sidebar" role="navigation">
+                
+                <!-- This is the title that appears on the page itself. -->
+                <div class="title">Gallery</div>
+                
+                <!-- This is some descriptive gallery text that will always be visible. -->
+                <div class="gal-desc">
+                    Nulla tristique finibus massa in porta. Vivamus venenatis magna elit, non consequat mi pretium et. Nullam semper nibh sed risus sagittis, nec aliquet arcu finibus.
+                </div>
+                
+                <!-- This is where your Gallery Sections go. You can have as many Gallery Sections as you want. They are collapsible.
+                To add another Gallery Section, copy+paste an entire existing Gallery Section.
+                You can add Images to Gallery Sections in the same way. -->
+                
+                <!-- BEGINNING of Gallery Section -->
+                <div class="gal-section">
+                    <!-- Title of Gallery Section.
+                    The IDs of the section-title and thumb-box elements need to match, with the thumb-box having a prefix of "content-".
+                    Do not use the same ID for a Gallery Section and an Image. -->
+                    <div class="section-title" id="A" tabindex="0">Section A</div>
+                    <div class="thumb-box" id="content-A">
+                        
+                        <!-- BEGINNING of Image
+                        The IDs of the thumbnail and the hidden-info need to match, with the hidden-info having a prefix of "H-".
+                        The ID sets of each Image do not need to be in order, nor do they need to be consecutive numbers.
+                        Place your thumbnail URL in the src of thumbnail, and the full image URL in the src of hidden-info. -->
+                        <img class="thumbnail" id="01" src="img/aeris-small.png" tabindex="0">
+                        <div class="hidden-info" id="H-01" src="img/aeris-large.png">
+                            <!-- This is the description that will display for this Image when it is selected.
+                            It will only be visible when it is selected. You can include title, date, or whatever else as well. -->
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisi erat, tincidunt nec urna ut, consectetur varius erat. Integer non gravida urna. Nulla tristique finibus massa in porta. Vivamus venenatis magna elit, non consequat mi pretium et. Nullam semper nibh sed risus sagittis, nec aliquet arcu finibus.<br>
+                            <br>
+                            <b>Date:</b> Jan 12, 2020
+                        </div>
+                        <!-- END of Image -->
+                        
+                        <!-- BEGINNING of Image
+                        The IDs of the thumbnail and the hidden-info need to match, with the hidden-info having a prefix of "H-".
+                        The ID sets of each Image do not need to be in order, nor do they need to be consecutive numbers.
+                        Place your thumbnail URL in the src of thumbnail, and the full image URL in the src of hidden-info. -->
+                        <img class="thumbnail" id="02" src="img/annora-small.png" tabindex="0">
+                        <div class="hidden-info" id="H-02" src="img/annora-large.png">
+                            <!-- This is the description that will display for this Image when it is selected.
+                            It will only be visible when it is selected. You can include title, date, or whatever else as well. -->
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisi erat, tincidunt nec urna ut, consectetur varius erat. Integer non gravida urna. Nulla tristique finibus massa in porta. Vivamus venenatis magna elit, non consequat mi pretium et. Nullam semper nibh sed risus sagittis, nec aliquet arcu finibus.<br>
+                            <br>
+                            <b>Date:</b> Jan 14, 2020
+                        </div>
+                        <!-- END of Image -->
+                        
+                        <!-- BEGINNING of Image
+                        The IDs of the thumbnail and the hidden-info need to match, with the hidden-info having a prefix of "H-".
+                        The ID sets of each Image do not need to be in order, nor do they need to be consecutive numbers.
+                        Place your thumbnail URL in the src of thumbnail, and the full image URL in the src of hidden-info. -->
+                        <img class="thumbnail" id="100" src="img/apollo-small.png" tabindex="0">
+                        <div class="hidden-info" id="H-100" src="img/apollo-large.png">
+                            <!-- This is the description that will display for this Image when it is selected.
+                            It will only be visible when it is selected. You can include title, date, or whatever else as well. -->
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisi erat, tincidunt nec urna ut, consectetur varius erat. Integer non gravida urna. Nulla tristique finibus massa in porta. Vivamus venenatis magna elit, non consequat mi pretium et. Nullam semper nibh sed risus sagittis, nec aliquet arcu finibus.<br>
+                            <br>
+                            <b>Date:</b> Nov 14, 2019
+                        </div>
+                        <!-- END of Image -->
+                        
+                        <!-- BEGINNING of Image
+                        The IDs of the thumbnail and the hidden-info need to match, with the hidden-info having a prefix of "H-".
+                        The ID sets of each Image do not need to be in order, nor do they need to be consecutive numbers.
+                        Place your thumbnail URL in the src of thumbnail, and the full image URL in the src of hidden-info. -->
+                        <img class="thumbnail" id="101" src="img/clove-small.png" tabindex="0">
+                        <div class="hidden-info" id="H-101" src="img/clove-large.png">
+                            <!-- This is the description that will display for this Image when it is selected.
+                            It will only be visible when it is selected. You can include title, date, or whatever else as well. -->
+                            This is text you haven't seen before.<br>
+                            <br>
+                            <b>Date:</b> Feb 12, 2020
+                        </div>
+                        <!-- END of Image -->
+                        
+                        <!-- BEGINNING of Image
+                        The IDs of the thumbnail and the hidden-info need to match, with the hidden-info having a prefix of "H-".
+                        The ID sets of each Image do not need to be in order, nor do they need to be consecutive numbers.
+                        Place your thumbnail URL in the src of thumbnail, and the full image URL in the src of hidden-info. -->
+                        <img class="thumbnail" id="102" src="img/ginger-small.png" tabindex="0">
+                        <div class="hidden-info" id="H-102" src="img/ginger-large.png">
+                            <!-- This is the description that will display for this Image when it is selected.
+                            It will only be visible when it is selected. You can include title, date, or whatever else as well. -->
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisi erat, tincidunt nec urna ut, consectetur varius erat. Integer non gravida urna. Nulla tristique finibus massa in porta. Vivamus venenatis magna elit, non consequat mi pretium et. Nullam semper nibh sed risus sagittis, nec aliquet arcu finibus.<br>
+                            <br>
+                            <b>Date:</b> Dec 27, 2019
+                        </div>
+                        <!-- END of Image -->
+                        
+                        <!-- BEGINNING of Image
+                        The IDs of the thumbnail and the hidden-info need to match, with the hidden-info having a prefix of "H-".
+                        The ID sets of each Image do not need to be in order, nor do they need to be consecutive numbers.
+                        Place your thumbnail URL in the src of thumbnail, and the full image URL in the src of hidden-info. -->
+                        <img class="thumbnail" id="105" src="img/keres-small.png" tabindex="0">
+                        <div class="hidden-info" id="H-105" src="img/keres-large.png">
+                            <!-- This is the description that will display for this Image when it is selected.
+                            It will only be visible when it is selected. You can include title, date, or whatever else as well. -->
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisi erat, tincidunt nec urna ut, consectetur varius erat. Integer non gravida urna. Nulla tristique finibus massa in porta. Vivamus venenatis magna elit, non consequat mi pretium et. Nullam semper nibh sed risus sagittis, nec aliquet arcu finibus.<br>
+                            <br>
+                            <b>Date:</b> Nov 3, 2019
+                        </div>
+                        <!-- END of Image -->
+                        
+                    </div>
+                </div>
+                <!-- END of Gallery Section -->
+                
+                <!-- BEGINNING of Gallery Section -->
+                <div class="gal-section">
+                    <!-- Title of Gallery Section.
+                    The IDs of the section-title and thumb-box elements need to match, with the thumb-box having a prefix of "content-".
+                    Do not use the same ID for a Gallery Section and an Image. -->
+                    <div class="section-title" id="B" tabindex="0">Another Section</div>
+                    <div class="thumb-box" id="content-B">
+                        
+                        <!-- BEGINNING of Image
+                        The IDs of the thumbnail and the hidden-info need to match, with the hidden-info having a prefix of "H-".
+                        The ID sets of each Image do not need to be in order, nor do they need to be consecutive numbers.
+                        Place your thumbnail URL in the src of thumbnail, and the full image URL in the src of hidden-info. -->
+                        <img class="thumbnail" id="03" src="img/ash-small.png" tabindex="0">
+                        <div class="hidden-info" id="H-03" src="img/ash-large.png">
+                            <!-- This is the description that will display for this Image when it is selected.
+                            It will only be visible when it is selected. You can include title, date, or whatever else as well. -->
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisi erat, tincidunt nec urna ut, consectetur varius erat. Integer non gravida urna. Nulla tristique finibus massa in porta. Vivamus venenatis magna elit, non consequat mi pretium et. Nullam semper nibh sed risus sagittis, nec aliquet arcu finibus.<br>
+                            <br>
+                            <b>Date:</b> Sep 8, 2022
+                        </div>
+                        <!-- END of Image -->
+                        
+                        <!-- BEGINNING of Image
+                        The IDs of the thumbnail and the hidden-info need to match, with the hidden-info having a prefix of "H-".
+                        The ID sets of each Image do not need to be in order, nor do they need to be consecutive numbers.
+                        Place your thumbnail URL in the src of thumbnail, and the full image URL in the src of hidden-info. -->
+                        <img class="thumbnail" id="08" src="img/ginger5-thumb.png" tabindex="0">
+                        <div class="hidden-info" id="H-08" src="img/ginger5.png">
+                            <!-- This is the description that will display for this Image when it is selected.
+                            It will only be visible when it is selected. You can include title, date, or whatever else as well. -->
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisi erat, tincidunt nec urna ut, consectetur varius erat. Integer non gravida urna. Nulla tristique finibus massa in porta. Vivamus venenatis magna elit, non consequat mi pretium et. Nullam semper nibh sed risus sagittis, nec aliquet arcu finibus.<br>
+                            <br>
+                            <b>Date:</b> Jan 27, 2021
+                        </div>
+                        <!-- END of Image -->
+                        
+                        <!-- BEGINNING of Image
+                        The IDs of the thumbnail and the hidden-info need to match, with the hidden-info having a prefix of "H-".
+                        The ID sets of each Image do not need to be in order, nor do they need to be consecutive numbers.
+                        Place your thumbnail URL in the src of thumbnail, and the full image URL in the src of hidden-info. -->
+                        <img class="thumbnail" id="09" src="img/jophiel-small.png" tabindex="0">
+                        <div class="hidden-info" id="H-09" src="img/jophiel-full.png">
+                            <!-- This is the description that will display for this Image when it is selected.
+                            It will only be visible when it is selected. You can include title, date, or whatever else as well. -->
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisi erat, tincidunt nec urna ut, consectetur varius erat. Integer non gravida urna. Nulla tristique finibus massa in porta. Vivamus venenatis magna elit, non consequat mi pretium et. Nullam semper nibh sed risus sagittis, nec aliquet arcu finibus.<br>
+                            <br>
+                            <b>Date:</b> Aug 27, 2020
+                        </div>
+                        <!-- END of Image -->
+                        
+                        <!-- BEGINNING of Image
+                        The IDs of the thumbnail and the hidden-info need to match, with the hidden-info having a prefix of "H-".
+                        The ID sets of each Image do not need to be in order, nor do they need to be consecutive numbers.
+                        Place your thumbnail URL in the src of thumbnail, and the full image URL in the src of hidden-info. -->
+                        <img class="thumbnail" id="109" src="img/kaide-small.png" tabindex="0">
+                        <div class="hidden-info" id="H-109" src="img/kaide-large.png">
+                            <!-- This is the description that will display for this Image when it is selected.
+                            It will only be visible when it is selected. You can include title, date, or whatever else as well. -->
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisi erat, tincidunt nec urna ut, consectetur varius erat. Integer non gravida urna. Nulla tristique finibus massa in porta. Vivamus venenatis magna elit, non consequat mi pretium et. Nullam semper nibh sed risus sagittis, nec aliquet arcu finibus.<br>
+                            <br>
+                            <b>Date:</b> Jun 26, 2020
+                        </div>
+                        <!-- END of Image -->
+                        
+                    </div>
+                </div>
+                <!-- END of Gallery Section -->
+                
+            </div>
+            
+            <div class="display" role="main">
+                
+                <!-- This is the Main Display, where the currently selected image and its description display.
+                You can set the Default Image and text that will appear when someone first loads the page here.
+                You do not need to and should not alter it aside from setting the Default Image.
+                Place your Default Image URL here. It will only display until an Image is selected. -->
+                <img class="full-size" src="img/kaide-large.png">
+                
+                <!-- This is the text for your Default Image. It will only display until an Image is selected. -->
+                <div class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisi erat, tincidunt nec urna ut, consectetur varius erat. Integer non gravida urna. Nulla tristique finibus massa in porta. Vivamus venenatis magna elit, non consequat mi pretium et. Nullam semper nibh sed risus sagittis, nec aliquet arcu finibus.<br>
+                    <br>
+                    <b>Date:</b> today!
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        <iframe class="footer-frame" src="frames/gal-footer.html" title="footer"></iframe>
+        
+    </div>
+    
+</body>
